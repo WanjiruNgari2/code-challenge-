@@ -1,6 +1,11 @@
+// prompt student to input their totals
 let studentInput = prompt('Enter your total:');
 let total = Number(studentInput); //input will be changed to a number
 
+
+
+
+//checks that the input is not  a number and asks for a real number
    if(isNaN(total)) {
     ("Enter actual total!");
   }
@@ -10,6 +15,8 @@ let total = Number(studentInput); //input will be changed to a number
   }
 
 
+
+//gradeStudent according to your total from A to E
 function gradeStudent(total) {
  if (total > 79) {
     return 'A';}
